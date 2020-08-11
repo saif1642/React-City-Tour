@@ -1,10 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.scss';
+import Navbar from '../src/components/navbar/Navbar';
 
 function App() {
   return (
-    <h1>City Tour</h1>
+   <React.Fragment>
+     <Navbar />
+   </React.Fragment>
   );
 }
 
